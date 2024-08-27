@@ -18,7 +18,6 @@ java -cp target/PlayersCommunication-1.0-SNAPSHOT.jar FirstScenario.Main
 ## Second Scenario(It is opposite to 5 as mentioned in the task):
 
 ## (Step 1)
-#!/bin/bash
 mvn clean package
 
 Now first start the SecondPlayer(ServerPlayer) in terminal because The it act as a PlayerServer which needs to be running and listening for incoming connections before the FirstPlayer(ClientPlayer) attempts to connect. Therefore, If you start the FirstPlayer(clientPlayer) first, then it will try to connect to a SecondPlayer(ServerPlayer) that isn’t yet available, which could result in a connection failure.
