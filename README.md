@@ -7,7 +7,6 @@
 ## First Scenario:
 
 ## (Step 1)
-#!/bin/bash
 mvn clean package
 
 ## (Step 2)
